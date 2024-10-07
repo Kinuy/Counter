@@ -4,10 +4,10 @@ public class Count {
     private static int totalCount = 0;
     private int instanceCount = 0;
 
-    public Count() {
+/*    public Count() {
 //        totalCount++;
 //        incrementInstanceCount();
-    }
+    }*/
 
 /*    public Count(int instanceCount) {
         this.instanceCount = instanceCount;

@@ -13,6 +13,13 @@ public class Main {
     Step 4: In the main method, create multiple objects of the class and call both the static and instance methods.
 
     Step 5: Override the ToString method to output the current values of 'totalCount' and 'instanceCount'.
+
+    Create a new class 'Calculator' with a static method 'add' that takes two numbers as parameters and returns their sum.
+
+    Write code in the main method to call the 'add' method and print the result.
+
+    Optional: Implement additional static methods in the 'Calculator' class (subtraction, multiplication, division) and call them in the main method.
+
 */
     public static void main(String[] args) {
         Count count1 = new Count();
@@ -38,5 +45,10 @@ public class Main {
         System.out.println(count3);
         System.out.println(count4);
 
+
+        System.out.println(Calculator.add(1.2,2.3));
+        System.out.println(Calculator.multiplication(1.2,2.3));
+        System.out.println(Calculator.subtraction(1.2,2.3));
+        System.out.println(Calculator.division(1.2,2.3));
     }
 }
