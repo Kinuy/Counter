@@ -1,6 +1,6 @@
 package org.example;
 
-public class Count {
+public class Counter {
     private static int totalCount = 0;
     private int instanceCount = 0;
 
@@ -22,7 +22,7 @@ public class Count {
 
     @Override
     public String toString() {
-        return "Count{" +
+        return "Counter{" +
                 "instanceCount=" + instanceCount +
                 "TotalCount=" + totalCount +
                 '}';

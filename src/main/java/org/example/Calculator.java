@@ -6,6 +6,7 @@ public class Calculator {
     }
 
     public static double subtraction(double a, double b) {
+//        return Math.round(a - b);
         return a - b;
     }
     public static double multiplication(double a, double b) {

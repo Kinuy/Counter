@@ -22,33 +22,33 @@ public class Main {
 
 */
     public static void main(String[] args) {
-        Count count1 = new Count();
-        Count count2 = new Count();
-        Count count3 = new Count();
-        Count count4 = new Count();
+        Counter counter1 = new Counter();
+        Counter counter2 = new Counter();
+        Counter counter3 = new Counter();
+        Counter counter4 = new Counter();
 
-        count1.incrementInstanceCount();
-        count1.incrementInstanceCount();
-        count2.incrementInstanceCount();
-        count3.incrementInstanceCount();
-        count4.incrementInstanceCount();
+        counter1.incrementInstanceCount();
+        counter1.incrementInstanceCount();
+        counter2.incrementInstanceCount();
+        counter3.incrementInstanceCount();
+        counter4.incrementInstanceCount();
 
-        Count.incrementTotalCount();
-        Count.incrementTotalCount();
-        Count.incrementTotalCount();
-        Count.incrementTotalCount();
+        Counter.incrementTotalCount();
+        Counter.incrementTotalCount();
+        Counter.incrementTotalCount();
+        Counter.incrementTotalCount();
 
 
 
-        System.out.println(count1);
-        System.out.println(count2);
-        System.out.println(count3);
-        System.out.println(count4);
+        System.out.println(counter1);
+        System.out.println(counter2);
+        System.out.println(counter3);
+        System.out.println(counter4);
 
 
         System.out.println(Calculator.add(1.2,2.3));
-        System.out.println(Calculator.multiplication(1.2,2.3));
         System.out.println(Calculator.subtraction(1.2,2.3));
+        System.out.println(Calculator.multiplication(1.2,2.3));
         System.out.println(Calculator.division(1.2,2.3));
     }
 }
